@@ -1,0 +1,15 @@
+{
+    "root": {
+        "publicID": "Acme Lab",
+        "entityCodeID": "Building",
+        "amount": 1,
+        "child": [
+            {
+                "publicID": "Tank 4",
+                "entityCodeID": "Freezer",
+                "amount": 1,
+                "child": []
+            }
+        ]
+    }
+}

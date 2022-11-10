@@ -1,0 +1,36 @@
+{
+    "root": {
+        "publicID": "Acme Lab",
+        "entityCodeID": "Building",
+        "amount": 1,
+        "child": [
+            {
+                "publicID": "Tank 4",
+                "entityCodeID": "Freezer",
+                "amount": 1,
+                "child": [
+                    {
+                        "publicID": "Section 1",
+                        "entityCodeID": "Section",
+                        "amount": 1,
+                        "child": [
+                            {
+                                "publicID": "Frame",
+                                "entityCodeID": "Frame",
+                                "amount": 147,
+                                "child":[
+                                    {
+                                        "publicID": "Position",
+                                        "entityCodeID": "Position",
+                                        "amount": 7,
+                                        "child": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

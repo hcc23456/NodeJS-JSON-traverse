@@ -1,0 +1,15 @@
+{
+  "name": "stemsoft-coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "makeCSV.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node makeCSV.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.2.1"
+  }
+}

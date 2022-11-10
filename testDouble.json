@@ -1,0 +1,77 @@
+{
+    "root": {
+        "publicID": "Acme Lab",
+        "entityCodeID": "Building",
+        "amount": 1,
+        "child": [
+            {
+                "publicID": "Tank 4",
+                "entityCodeID": "Freezer",
+                "amount": 1,
+                "child": [
+                    {
+                        "publicID": "Section 3",
+                        "entityCodeID": "Section",
+                        "amount": 1,
+                        "child": [
+                            {
+                                "publicID": "Rack",
+                                "entityCodeID": "Rack",
+                                "amount": 9,
+                                "child": [
+                                    {
+                                        "publicID": "Level",
+                                        "entityCodeID": "Shelf",
+                                        "amount": 15,
+                                        "child": [
+                                            {
+                                                "publicID": "Box(9x9)",
+                                                "entityCodeID": "Box",
+                                                "amount": 1,
+                                                "child": [
+                                                    {
+                                                        "publicID": "Position",
+                                                        "entityCodeID": "Position",
+                                                        "amount": 81,
+                                                        "child": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "publicID": "Rack",
+                                "entityCodeID": "Rack",
+                                "amount": 5,
+                                "child": [
+                                    {
+                                        "publicID": "Level",
+                                        "entityCodeID": "Shelf",
+                                        "amount": 15,
+                                        "child": [
+                                            {
+                                                "publicID": "Box(5x5)",
+                                                "entityCodeID": "Box",
+                                                "amount": 1,
+                                                "child": [
+                                                    {
+                                                        "publicID": "Position",
+                                                        "entityCodeID": "Position",
+                                                        "amount": 25,
+                                                        "child": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
